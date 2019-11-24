@@ -13,4 +13,4 @@ tasks:
   - before: setup.sh
     command: cd /workspace/arc-view/arc-view
     init: npm install
-    command: npm run dev
+    command: npm start
