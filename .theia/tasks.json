@@ -1,0 +1,16 @@
+{
+   "tasks": [
+      {
+         "type": "npm",
+         "script": "install",
+         "path": "arc-view/",
+         "problemMatcher": []
+      },
+      {
+         "type": "npm",
+         "script": "start",
+         "path": "arc-view/",
+         "problemMatcher": []
+      }
+   ]
+}
