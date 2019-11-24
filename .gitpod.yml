@@ -10,7 +10,6 @@ tasks:
 - init: echo 'init script' # runs during prebuild
   command: echo 'start script'
 tasks:
-  - before: setup.sh
-    command: cd /workspace/arc-view/arc-view
+  - before: cd /workspace/arc-view/arc-view
     init: npm install
     command: npm start
