@@ -9,7 +9,7 @@ function Viewer(props) {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-    const my_list = ['a', 'b', 'c'];
+    const my_list = ['a', 'b', 'cc'];
     return (
         <>
             <Button variant="primary" onClick={handleShow}>
